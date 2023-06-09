@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+.calculator {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(39, 20, 20, 0.1);
+}
+.result input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.value input {
+    width: calc(50% - 10px);
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button {
+    display: inline-block;
+    width: calc(50% - 10px);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #09db10;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn1{
+     margin-right: 20px;
+    
+}
+.btn2{
+     margin-left: 200px;
+   
+}
+.btn3{
+    margin-left: -50px;
+    
+}
+
+.btn4{
+     margin-left: 200px;
+     
+}
+.btn5{
+     margin-left: -50px;
+     
+}
+.btn1:hover{
+     background-color: aquamarine;
+}
+.btn2:hover{
+    background-color: darkgoldenrod;
+
+}
+.btn3:hover{
+     background-color: firebrick;
+}
+.btn4:hover{
+     background-color: navy;
+}
+.btn5:hover{
+     background-color: salmon;
+}

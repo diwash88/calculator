@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calcualtor App </title>
+    <link rel =" stylesheet" href="jd.css">
+    
+  
+</head>
+<body>
+    <div class=" calculator"   > 
+        <div   class="result ">
+            <input type="text" id="result" class="display-box">
+            
+        </div><br> 
+       
+    
+         <div class="value"> 
+            <input type="number" id="value1" >
+       
+            &nbsp; 
+     
+            <input type="number" id="value2"> 
+
+        </div><br>
+        
+        <button onclick ="insert_value('/' ) " class=" btn1">division</button>
+        &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+
+        <button onclick ="insurt_value('*') " class="btn2"> multiply</button>
+        &nbsp;   &nbsp;    &nbsp;    &nbsp;   &nbsp;   &nbsp;
+        <button onclick ="insert_value('%') " class="btn3"> reminder</button><br>
+        <br>
+        <button onclick ="insert_value('+') " class="btn4"> addition</button>
+        &nbsp;   &nbsp;    &nbsp;    &nbsp;   &nbsp;   &nbsp;
+        <button onclick ="insert_value('-') " class="btn5"> subtract</button>
+
+    </div>
+    <script src="script.js"></script>
+   
+    
+</body>
+</html>
